@@ -1,0 +1,24 @@
+{
+  "name": "app-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "cd server && node index.js",
+    "client": "cd client && npm start",
+    "start": "concurrently \"npm run backend\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knightabhi/app-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Knightabhi/app-ui/issues"
+  },
+  "homepage": "https://github.com/Knightabhi/app-ui#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
